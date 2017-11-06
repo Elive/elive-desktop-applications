@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Rage
+GenericName=3d accelerated
+Comment=
+Icon=mediacenter
+TryExec=rage
+Exec=rage -gl
+Terminal=false
+Categories=ENLIGHTENMENT;

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Rage
+GenericName=MediaCenter
+Comment=
+Icon=mediacenter
+TryExec=rage
+Exec=rage
+Terminal=false
+Categories=ENLIGHTENMENT;Application;Demo

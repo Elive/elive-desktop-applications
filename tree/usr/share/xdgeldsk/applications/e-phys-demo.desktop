@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=E-phys
+GenericName=Phisics EFL library
+Comment=
+Icon=enlightenment
+TryExec=e_phys_demo
+Exec=e_phys_demo rope
+Terminal=false
+Categories=ENLIGHTENMENT;

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=CHANGEME
+GenericName=CHANGEME
+Comment=
+Icon=bluetooth
+TryExec=noexecme
+Exec=noexecme
+Terminal=false
+Categories=Video
+
+NoDisplay=true
