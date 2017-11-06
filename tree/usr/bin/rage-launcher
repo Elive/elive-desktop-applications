@@ -35,7 +35,9 @@ main(){
     cd "$E_DIR"
     eet -d e.cfg config e.cfg.src
     eet -d module.comp.cfg config module.comp.cfg.src
-    if grep -qs "\"use_composite\" int: 1" "e.cfg.src" && grep -qs "\"engine\" int: 1" ; then
+
+    # engine 2 is GL, 1 is software-mode
+    if grep -qs "\"use_composite\" int: 1" "e.cfg.src" && grep -qs "\"engine\" int: 2" ; then
         rage_opts="-gl"
     fi
     rm -f e.cfg.src module.comp.cfg.src
