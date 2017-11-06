@@ -1,0 +1,53 @@
+#!/bin/bash
+source /usr/lib/elive-tools/functions
+
+main(){
+    # pre {{{
+    local arg cd_previous E_DIR rage_opts
+
+    # }}}
+
+    # get list of files to use
+    for arg in "$@"
+    do
+        if [[ -s "${arg%.*}.srt" ]] && [[ -s "$arg" ]] ; then
+            el_array_member_add "$arg" "${files[@]}" ; files=("${_out[@]}")
+            el_array_member_add "-sub" "${files[@]}" ; files=("${_out[@]}")
+            el_array_member_add "${arg%.*}.srt" "${files[@]}" ; files=("${_out[@]}")
+        else
+            if [[ -s "$arg" ]] ; then
+                el_array_member_add "$arg" "${files[@]}" ; files=("${_out[@]}")
+            fi
+        fi
+    done
+
+    # determine if use GL or not
+    cd_previous="$(pwd)"
+    if [[ -z "$E_CONF_PROFILE" ]] ; then
+        E_CONF_PROFILE="standard"
+    fi
+    if [[ -d "$HOME/.e/e17" ]] ; then
+        E_DIR="$HOME/.e/e17/config/$E_CONF_PROFILE"
+    else
+        E_DIR="$HOME/.e/e/config/$E_CONF_PROFILE"
+    fi
+
+    cd "$E_DIR"
+    eet -d e.cfg config e.cfg.src
+    eet -d module.comp.cfg config module.comp.cfg.src
+    if grep -qs "\"use_composite\" int: 1" "e.cfg.src" && grep -qs "\"engine\" int: 1" ; then
+        rage_opts="-gl"
+    fi
+    rm -f e.cfg.src module.comp.cfg.src
+    cd "$cd_previous"
+
+    rage $rage_opts "${files[@]}"
+
+}
+
+#
+#  MAIN
+#
+main "$@"
+
+# vim: set foldmethod=marker :

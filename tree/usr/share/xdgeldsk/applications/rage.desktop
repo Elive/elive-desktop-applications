@@ -44,6 +44,6 @@ GenericName[uk]=Мультимедійний центр
 GenericName[vi]=Trung tâm Đa phương tiện
 Icon=mediacenter
 TryExec=rage
-Exec=rage
+Exec=rage-launcher %F
 Terminal=false
 Categories=ENLIGHTENMENT;Application;Demo
