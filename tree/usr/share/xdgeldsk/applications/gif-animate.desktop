@@ -43,5 +43,5 @@ Name[tr]=Görme hareket et
 Name[uk]=Візуально рухатися
 Name[vi]=Di chuyển trực quan
 Comment=GIF player
-Exec=animate %U
+Exec=animate %F
 MimeType=image/gif

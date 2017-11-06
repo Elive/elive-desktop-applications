@@ -6,9 +6,10 @@ main(){
     local arg cd_previous E_DIR rage_opts
 
     # }}}
-    if ! el_dependencies_check rage 1>/dev/null 2>&1 ; then
-        el_dependencies_install rage-player
-    fi
+    # not needed if the .desktop launcher uses TryExec to "rage" (it will never appear if there's not rage)
+    #if ! el_dependencies_check rage 1>/dev/null 2>&1 ; then
+        #el_dependencies_install rage-player
+    #fi
 
     # get list of files to use
     for arg in "$@"

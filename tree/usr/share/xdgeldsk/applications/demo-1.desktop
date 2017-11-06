@@ -1,9 +1,0 @@
-[Desktop Entry]
-#Encoding=UTF-8
-Type=Application
-Name=Demo of Terminology
-Comment=Enlightened Terminal
-Exec=terminology -t mild -b /usr/share/elive-demo-files-skel/Videos/rupture_by_asd.avi
-Icon=star
-Categories=System;TerminalEmulator;
-StartupWMClass=terminology
