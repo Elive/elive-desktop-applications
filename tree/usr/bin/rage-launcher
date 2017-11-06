@@ -14,6 +14,7 @@ main(){
             el_array_member_add "$arg" "${files[@]}" ; files=("${_out[@]}")
             el_array_member_add "-sub" "${files[@]}" ; files=("${_out[@]}")
             el_array_member_add "${arg%.*}.srt" "${files[@]}" ; files=("${_out[@]}")
+            el_debug "added subtitle for $arg"
         else
             if [[ -s "$arg" ]] ; then
                 el_array_member_add "$arg" "${files[@]}" ; files=("${_out[@]}")
@@ -39,6 +40,7 @@ main(){
     # engine 2 is GL, 1 is software-mode
     if grep -qs "\"use_composite\" int: 1" "e.cfg.src" && grep -qs "\"engine\" int: 2" ; then
         rage_opts="-gl"
+        el_debug "using GL mode"
     fi
     rm -f e.cfg.src module.comp.cfg.src
     cd "$cd_previous"
