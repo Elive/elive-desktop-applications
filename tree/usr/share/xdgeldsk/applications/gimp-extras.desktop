@@ -2,6 +2,7 @@
 Encoding=UTF-8
 Type=Application
 NoDisplay=true
-Name=oowriter
-Exec=oowriter
-MimeType=text/plain
+Name=Gimp
+Exec=gimp %F
+MimeType=image/x-rgb;image/x-ico
+

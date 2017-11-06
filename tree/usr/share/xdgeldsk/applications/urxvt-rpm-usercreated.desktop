@@ -1,7 +1,0 @@
-[Desktop Entry]
-Encoding=UTF-8
-Type=Application
-NoDisplay=true
-Name=urxvt
-Exec=urxvt -e fakeroot alien
-MimeType=application/x-rpm
