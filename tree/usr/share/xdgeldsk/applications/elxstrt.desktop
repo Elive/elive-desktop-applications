@@ -1,0 +1,12 @@
+[Desktop Entry]
+Hidden=false
+NoDisplay=true
+Name[es_ES]=elxstrt
+Exec=/home/eliveuser/.elxstrt
+Type=Application
+Version=1,
+StartupNotify=false
+GenericName=
+GenericName[es_ES]=
+Name=elxstrt
+Terminal=false

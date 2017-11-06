@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Name=Code Academy
+Categories=Education
+StartupNotify=true
+NoDisplay=false
+Icon=kedit
+Exec=web-launcher --app=http://www.codeacademy.com
