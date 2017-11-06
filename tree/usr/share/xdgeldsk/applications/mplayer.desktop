@@ -130,6 +130,8 @@ Comment[ja]=動画や音声のファイルを再生します
 Keywords=Player;Capture;Audio;Music;Song;Video;Movie;Film;Clip;DVD;VCD;CD;Disc;DVB;TV;
 Keywords[de]=Player;Wiedergabe;Capture;Mitschnitt;Audio;Musik;Lied;Video;Film;Clip;DVD;VCD;CD;Disc;Disk;DVB;TV;
 Icon=mplayer
+# no display if we use mplayer instead of gmplayer (because is not gui)
+NoDisplay=true
 TryExec=mplayer
 Exec=mplayer %F
 Terminal=false
