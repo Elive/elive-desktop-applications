@@ -2,6 +2,7 @@
 Encoding=UTF-8
 Type=Application
 NoDisplay=true
-Name=dosbox
-Exec=dosbox
+Name=Dosbox
+Comment=MS DOS
+Exec=dosbox %f
 MimeType=application/x-executable
