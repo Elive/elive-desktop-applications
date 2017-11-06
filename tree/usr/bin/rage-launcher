@@ -41,7 +41,7 @@ main(){
     eet -d module.comp.cfg config module.comp.cfg.src
 
     # engine 2 is GL, 1 is software-mode
-    if grep -qs "\"use_composite\" int: 1" "e.cfg.src" && grep -qs "\"engine\" int: 2" ; then
+    if grep -qs "\"use_composite\" int: 1" "e.cfg.src" && grep -qs "\"engine\" int: 2" "module.comp.cfg.src" ; then
         rage_opts="-gl"
         el_debug "using GL mode"
     fi
