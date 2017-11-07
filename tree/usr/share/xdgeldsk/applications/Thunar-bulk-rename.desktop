@@ -155,7 +155,7 @@ Icon=Thunar
 Terminal=false
 StartupNotify=true
 Type=Application
-Categories=System;Utility;Core;GTK;Filesystem;
+Categories=Utility;FileTools;
 NoDisplay=true
 
 # vi:set encoding=UTF-8:
