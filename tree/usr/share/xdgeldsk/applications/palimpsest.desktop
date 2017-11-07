@@ -129,4 +129,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 X-GNOME-DocPath=palimpsest/palimpsest.xml
-Categories=System;Filesystem;Settings;
+Categories=System;Filesystem;
