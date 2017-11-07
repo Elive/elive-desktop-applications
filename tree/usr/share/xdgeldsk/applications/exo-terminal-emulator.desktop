@@ -1,15 +1,14 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Exec=exo-open --launch FileManager %u
-Icon=system-file-manager
-StartupNotify=true
+Exec=exo-open --launch TerminalEmulator
+Icon=utilities-terminal
+StartupNotify=false
 Terminal=false
 Categories=Utility;X-XFCE;X-Xfce-Toplevel;
 # NOTE: these dont works in efl 1.13, so let's use NoDisplay
 NoDisplay=true
 OnlyShowIn=XFCE;
 NotShowIn=X-Enlightenment;
-X-XFCE-MimeType=x-scheme-handler/file;x-scheme-handler/trash;
-Name=File Manager
-Comment=Browse the file system
+Name=Terminal Emulator
+Comment=Use the command line
