@@ -156,6 +156,6 @@ Terminal=false
 StartupNotify=true
 Type=Application
 Categories=Utility;FileTools;
-NoDisplay=true
+#NoDisplay=true
 
 # vi:set encoding=UTF-8:
