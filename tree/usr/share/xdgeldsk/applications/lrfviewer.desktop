@@ -7,3 +7,4 @@ Exec=lrfviewer %F
 Icon=calibre
 MimeType=application/x-sony-bbeb;
 Categories=Viewer;Office;
+NoDisplay=true
