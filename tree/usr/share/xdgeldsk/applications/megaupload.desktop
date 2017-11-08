@@ -47,5 +47,5 @@ GenericName[vi]=Lưu trữ miễn phí trong đám mây
 Categories=Network;FileTransfer;WebBrowser
 StartupNotify=true
 NoDisplay=false
-Icon=gnome-fs-downloads
+Icon=network
 Exec=web-launcher --app=http://mega.co.nz
