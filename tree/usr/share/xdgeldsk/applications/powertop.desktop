@@ -78,9 +78,11 @@ GenericName[tl]=Pagsusuri ng mga mapagkukunan at consumption profiler para sa iy
 GenericName[tr]=Dizüstü bilgisayarınız için kaynakları ve tüketim profilini hesaplayın
 GenericName[uk]=Аналізуйте ресурси та профілі для споживання вашого ноутбука
 GenericName[vi]=Analize tài nguyên và hồ sơ tiêu dùng cho máy tính xách tay của bạn
-Exec=powertop
+Exec=gksu powertop
 Terminal=true
 Type=Application
 StartupNotify=true
 Icon=utilities-system-monitor
+# we don't want to show it, but at least we have the launcher
+NoDisplay=true
 Categories=System;
