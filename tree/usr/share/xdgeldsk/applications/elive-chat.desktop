@@ -85,5 +85,5 @@ TryExec=xchat
 Icon=chat
 Terminal=false
 Type=Application
-Categories=Elive;
+Categories=Elive;Help
 StartupNotify=true
