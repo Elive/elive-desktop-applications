@@ -66,6 +66,7 @@ main(){
 
 
     # determine if use GL or not
+    # update: rage don't use this option or at least in our build, maybe uses the ones from elementary_config
     #cd_previous="$(pwd)"
     #if [[ -z "$E_CONF_PROFILE" ]] ; then
         #E_CONF_PROFILE="standard"
@@ -81,13 +82,12 @@ main(){
     #eet -d module.comp.cfg config module.comp.cfg.src
 
     # engine 2 is GL, 1 is software-mode
-    # update: rage don't use this option or at least in our build, maybe uses the ones from elementary_config
     #if grep -qs "\"use_composite\" int: 1" "e.cfg.src" && grep -qs "\"engine\" int: 2" "module.comp.cfg.src" ; then
         #rage_opts="-gl"
         #el_debug "using GL mode"
     #fi
-    rm -f e.cfg.src module.comp.cfg.src
-    cd "$cd_previous"
+    #rm -f e.cfg.src module.comp.cfg.src
+    #cd "$cd_previous"
 
     rage $rage_opts "${files[@]}"
 
