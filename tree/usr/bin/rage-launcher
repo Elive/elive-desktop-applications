@@ -11,8 +11,24 @@ main(){
         #el_dependencies_install rage-player
     #fi
 
+    # use the last used files if arguments are not passed, like re-using a playlist
+    el_config_get
+
+    # don't use saved playlist if we are passing it
+    if [[ -n "$@" ]] ; then
+        unset files
+    else
+        if [[ -n "$files" ]] ; then
+            if declare -p files 2>&1 | grep -qs "declare .* files" ; then
+                files_old=("${files[@]}")
+            else
+                files_old="${files}"
+            fi
+        fi
+    fi
+
     # get list of files to use
-    for arg in "$@"
+    for arg in "$@" "${files_old[@]}"
     do
         if [[ -s "${arg%.*}.srt" ]] && [[ -s "$arg" ]] ; then
             el_array_member_add "$arg" "${files[@]}" ; files=("${_out[@]}")
@@ -25,6 +41,29 @@ main(){
             fi
         fi
     done
+
+    # if we have at least a working file, save the list, or re-use the last one
+    if [[ -s "${files}" ]] ; then
+        el_config_save files
+    else
+        el_config_get
+        # get again the list to know the working ones
+        for arg in "${files[@]}"
+        do
+            if [[ -s "${arg%.*}.srt" ]] && [[ -s "$arg" ]] ; then
+                el_array_member_add "$arg" "${files[@]}" ; files=("${_out[@]}")
+                el_array_member_add "-sub" "${files[@]}" ; files=("${_out[@]}")
+                el_array_member_add "${arg%.*}.srt" "${files[@]}" ; files=("${_out[@]}")
+                el_debug "added subtitle for $arg"
+            else
+                if [[ -s "$arg" ]] ; then
+                    el_array_member_add "$arg" "${files[@]}" ; files=("${_out[@]}")
+                fi
+            fi
+        done
+    fi
+
+
 
     # determine if use GL or not
     cd_previous="$(pwd)"
