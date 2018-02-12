@@ -4,5 +4,6 @@ Type=Application
 NoDisplay=true
 Name=Dosbox
 Comment=MS DOS
+TryExec=dosbox
 Exec=dosbox %f
 MimeType=application/x-executable

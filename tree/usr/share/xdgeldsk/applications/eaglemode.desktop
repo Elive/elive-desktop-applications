@@ -78,6 +78,7 @@ GenericName[tl]=Filemanager na nakabatay sa zoom
 GenericName[tr]=Yakınlaştırmaya Dayalı Dosya Yöneticisi
 GenericName[uk]=Файловий менеджер на основі масштабу
 GenericName[vi]=Trình quản lý tập tin dựa trên thu phóng
+TryExec=/usr/lib/eaglemode/eaglemode.sh
 Exec=/usr/lib/eaglemode/eaglemode.sh
 Icon=/usr/lib/eaglemode/res/icons/eaglemode48.png
 Terminal=false

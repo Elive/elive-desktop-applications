@@ -7,9 +7,9 @@ StartupNotify=false
 Terminal=false
 Categories=Network;X-XFCE;X-Xfce-Toplevel;
 # NOTE: these dont works in efl 1.13, so let's use NoDisplay
-NoDisplay=true
 OnlyShowIn=XFCE;
 NotShowIn=X-Enlightenment;
 X-XFCE-MimeType=x-scheme-handler/mailto;
 Name=Mail Reader
 Comment=Read your email
+NoDisplay=true

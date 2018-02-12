@@ -78,6 +78,7 @@ GenericName[tl]=Mga fixer ng mga pangalan ng musika
 GenericName[tr]=Müzik isimleri düzeltici
 GenericName[uk]=Фіксер музичних імен
 GenericName[vi]=Người đặt tên nhạc
+TryExec=picard
 Exec=picard %F
 Terminal=false
 Type=Application

@@ -3,6 +3,7 @@ Encoding=UTF-8
 Type=Application
 NoDisplay=true
 Name=Gimp
+TryExec=gimp
 Exec=gimp %F
 MimeType=image/x-rgb;image/x-ico
 

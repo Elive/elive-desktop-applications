@@ -7,9 +7,9 @@ StartupNotify=true
 Terminal=false
 Categories=Utility;X-XFCE;X-Xfce-Toplevel;
 # NOTE: these dont works in efl 1.13, so let's use NoDisplay
-NoDisplay=true
 OnlyShowIn=XFCE;
 NotShowIn=X-Enlightenment;
 X-XFCE-MimeType=x-scheme-handler/file;x-scheme-handler/trash;
 Name=File Manager
 Comment=Browse the file system
+NoDisplay=true

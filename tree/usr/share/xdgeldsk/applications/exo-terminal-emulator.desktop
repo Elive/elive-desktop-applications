@@ -7,8 +7,8 @@ StartupNotify=false
 Terminal=false
 Categories=Utility;X-XFCE;X-Xfce-Toplevel;
 # NOTE: these dont works in efl 1.13, so let's use NoDisplay
-NoDisplay=true
 OnlyShowIn=XFCE;
 NotShowIn=X-Enlightenment;
 Name=Terminal Emulator
 Comment=Use the command line
+NoDisplay=true

@@ -143,6 +143,7 @@ Comment[ur]=اردو ترجمہ از محمد علی مکی
 Comment[zh_CN]=安装和查看软件包
 Comment[zh_HK]=安裝和檢視軟件套件
 Comment[zh_TW]=安裝和檢視軟體套件
+TryExec=gdebi-gtk
 Exec=gdebi-gtk %f
 Icon=gnome-mime-application-x-deb
 Terminal=false

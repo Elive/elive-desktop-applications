@@ -87,4 +87,5 @@ Categories=System;Utility;FileTools;FileManager
 StartupNotify=true
 NoDisplay=false
 Icon=system-search
+TryExec=photorec
 Exec=photorec

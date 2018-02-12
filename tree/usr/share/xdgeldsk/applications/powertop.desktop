@@ -78,6 +78,7 @@ GenericName[tl]=Pagsusuri ng mga mapagkukunan at consumption profiler para sa iy
 GenericName[tr]=Dizüstü bilgisayarınız için kaynakları ve tüketim profilini hesaplayın
 GenericName[uk]=Аналізуйте ресурси та профілі для споживання вашого ноутбука
 GenericName[vi]=Analize tài nguyên và hồ sơ tiêu dùng cho máy tính xách tay của bạn
+TryExec=/usr/sbin/powertop
 Exec=gksu powertop
 Terminal=true
 Type=Application

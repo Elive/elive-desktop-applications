@@ -15,6 +15,7 @@ Comment[pt_BR]=Preferências para o Adobe Flash Player
 Comment[ru]=Настройки для Adobe Flash Player
 Comment[sk]=Predvoľby pre Adobe Flash Player
 Comment[sv]=Inställningar för Adobe Flash Player
+TryExec=flash-player-properties
 Exec=flash-player-properties
 Icon=flash-player-properties
 Terminal=false

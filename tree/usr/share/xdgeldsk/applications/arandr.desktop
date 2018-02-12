@@ -40,6 +40,7 @@ GenericName[tr]=Ekranların ve çözünürlük ayarlarının yapılması
 GenericName[uk]=Настройки екранів і дозволів
 GenericName[vi]=Cài đặt màn hình và nghị quyết
 Icon=display
+TryExec=arandr
 Exec=arandr
 Terminal=false
 Type=Application

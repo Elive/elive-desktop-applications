@@ -78,6 +78,7 @@ GenericName[tl]=Downloader ng musika
 GenericName[tr]=Müzik indirici
 GenericName[uk]=Завантажувач музики
 GenericName[vi]=Trình tải nhạc
+TryExec=nicotine
 Exec=nicotine
 Icon=nicotine-plus
 Terminal=false

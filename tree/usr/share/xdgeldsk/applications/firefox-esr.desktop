@@ -48,6 +48,7 @@ GenericName[pt_BR]=Navegador Web
 GenericName[ru]=Интернет-браузер
 GenericName[sk]=Internetový prehliadač
 GenericName[sv]=Webbläsare
+TryExec=/usr/lib/firefox-esr/firefox-esr
 Exec=/usr/lib/firefox-esr/firefox-esr %u
 Terminal=false
 X-MultipleArgs=false

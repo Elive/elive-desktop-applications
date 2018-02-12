@@ -80,6 +80,7 @@ Comment[tr]=Hem grafik hem de metin modunda çalışan Web tarayıcısı
 Comment[uk]=Веб-браузер працює як у графічному, так і в текстовому режимі
 Comment[vi]=Trình duyệt Web chạy ở cả chế độ đồ hoạ và văn bản
 Comment[pt_BR]=Navegador web que funciona tanto no modo texto como no modo gráfico
+TryExec=xlinks2
 Exec=xlinks2
 Icon=web-browser
 Terminal=false

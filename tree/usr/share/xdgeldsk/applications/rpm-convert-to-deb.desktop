@@ -43,5 +43,6 @@ Name[tl]=I-convert sa package ng Debian
 Name[tr]=Debian paketine dönüştürme
 Name[uk]=Перетворити в пакет Debian
 Name[vi]=Chuyển đổi sang gói Debian
+TryExec=alien
 Exec=fakeroot alien %f
 MimeType=application/x-rpm

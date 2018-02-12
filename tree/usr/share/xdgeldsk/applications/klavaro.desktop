@@ -86,6 +86,7 @@ GenericName[tl]=Mabilis na keyboard type trainer
 GenericName[tr]=Hızlı klavye yazma eğitmeni
 GenericName[uk]=Швидкий набір клавіатурних тренажерів
 GenericName[vi]=Kỹ năng đánh máy gõ nhanh
+TryExec=klavaro
 Exec=klavaro
 Icon=klavaro
 Terminal=false

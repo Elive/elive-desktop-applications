@@ -32,6 +32,7 @@ Comment[ru]=Приложение для тестирования Elementary
 Comment[sr]=Пробач програма Елементарија
 Comment[tr]=Elementary Test Uygulaması
 Icon=elementary
+TryExec=elementary_test
 Exec=elementary_test
 Terminal=false
 Categories=Development;Utility;

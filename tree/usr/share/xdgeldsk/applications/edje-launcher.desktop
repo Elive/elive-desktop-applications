@@ -3,5 +3,6 @@ Encoding=UTF-8
 Type=Application
 NoDisplay=true
 Name=EDJE player
+TryExec=edje_player
 Exec=edje_player %f
 MimeType=application/x-extension-edj

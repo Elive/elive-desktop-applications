@@ -78,6 +78,7 @@ GenericName[tl]=Lubhang magaan ang simpleng graphical web browser
 GenericName[tr]=Son derece hafif basit grafik web tarayıcısı
 GenericName[uk]=Надзвичайно легкий простий графічний веб-браузер
 GenericName[vi]=Trình duyệt web đồ họa đơn giản nhẹ nhàng
+TryExec=netsurf-gtk
 Exec=netsurf-gtk %u
 Terminal=false
 X-MultipleArgs=false

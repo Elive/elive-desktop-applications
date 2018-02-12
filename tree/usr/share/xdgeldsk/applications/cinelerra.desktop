@@ -39,6 +39,7 @@ GenericName[tl]=Advanced na propesyonal na video editor
 GenericName[tr]=Gelişmiş profesyonel video editörü
 GenericName[uk]=Розширений професійний відеоредактор
 GenericName[vi]=Trình chỉnh sửa video chuyên nghiệp nâng cao
+TryExec=cinelerra
 Exec=cinelerra
 Terminal=false
 Type=Application

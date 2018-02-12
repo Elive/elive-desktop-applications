@@ -118,6 +118,7 @@ GenericName[tl]=Webcam
 GenericName[tr]=Bilgisayar kamerası
 GenericName[uk]=Веб-камера
 GenericName[vi]=Webcam
+TryExec=cheese
 Exec=cheese
 Terminal=false
 Type=Application

@@ -2,6 +2,7 @@
 Version=1.0
 Name= VisualBoy Advance
 Comment=Game Boy Advance emulator
+TryExec=gvba
 Exec=gvba
 Icon=VisualBoyAdvance-gtk-32x32
 Terminal=false

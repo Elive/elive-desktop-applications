@@ -85,4 +85,5 @@ Categories=System;Settings;
 StartupNotify=true
 NoDisplay=false
 Icon=gwget
+TryExec=e17-restart-and-remove-conf-file-WARNING-dont-complain
 Exec=e17-restart-and-remove-conf-file-WARNING-dont-complain
