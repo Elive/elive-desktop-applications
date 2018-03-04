@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+TryExec=rxvt-unicode
+Exec=rxvt-unicode
+StartupWMClass=URxvt
+Icon=terminal
+StartupNotify=false
+Terminal=false
+Categories=System;TerminalEmulator;
+Name=Terminal Emulator
+Comment=Use the command line
+NoDisplay=true
