@@ -86,6 +86,6 @@ GenericName[vi]=Quét một đĩa và phục hồi các tập tin bị mất
 Categories=System;Utility;FileTools;FileManager
 StartupNotify=true
 NoDisplay=false
-Icon=system-search
+Icon=gwget
 TryExec=photorec
 Exec=photorec
