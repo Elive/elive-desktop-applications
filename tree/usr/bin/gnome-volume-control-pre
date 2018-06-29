@@ -6,10 +6,14 @@ main(){
 
     # }}}
 
-    if zenity --question --text="Configure audio card?" ; then
-        # first configure audios, because most of the times the user wants to configure audio first
-        audio-configurator
-        # also: the configurator runs the volumes defaults, which is what the user should want too...
+    # only if more than one card is found, ask if configure it
+    if [[ "$( cat /proc/asound/cards | grep -vE "\[(ThinkPadEC|NVidia|midi|MIDI|Dummy|system|Modem)" | grep -E "\[.*\]" | wc -l )" -gt 1 ]]  ; then
+
+        if zenity --question --text="Configure audio card?" ; then
+            # first configure audios, because most of the times the user wants to configure audio first
+            audio-configurator
+            # also: the configurator runs the volumes defaults, which is what the user should want too...
+        fi
     fi
 
     gnome-volume-control "$@"
