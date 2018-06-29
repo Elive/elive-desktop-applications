@@ -1,0 +1,23 @@
+#!/bin/bash
+#source /usr/lib/elive-tools/functions
+main(){
+    # pre {{{
+    local var
+
+    # }}}
+
+    if zenity --question --text="Configure audio card?" ; then
+        # first configure audios, because most of the times the user wants to configure audio first
+        audio-configurator
+        # also: the configurator runs the volumes defaults, which is what the user should want too...
+    fi
+
+    gnome-volume-control "$@"
+}
+
+#
+#  MAIN
+#
+main "$@"
+
+# vim: set foldmethod=marker :
