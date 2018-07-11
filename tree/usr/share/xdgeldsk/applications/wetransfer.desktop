@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Name=Wetransfer
+GenericName=Send big files to your contacts
+Categories=FileTransfer;WebApp
+StartupNotify=true
+NoDisplay=false
+Icon=network
+Exec=web-launcher --app=http://wetransfer.com
