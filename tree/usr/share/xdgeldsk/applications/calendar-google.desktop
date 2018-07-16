@@ -46,5 +46,5 @@ GenericName[vi]=Lịch được đồng bộ hóa đa cấp
 Categories=Utilities;Development;Organizer;WebApp
 StartupNotify=true
 NoDisplay=false
-Icon=video
+Icon=calendar
 Exec=web-launcher --app=http://calendar.google.com
