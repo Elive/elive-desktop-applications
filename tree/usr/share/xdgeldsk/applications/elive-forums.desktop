@@ -87,4 +87,4 @@ Categories=Elive;Help;WebApp
 StartupNotify=true
 NoDisplay=false
 Icon=msn
-Exec=web-launcher http://forum.elivecd.org
+Exec=web-launcher http://forum.elivelinux.org
