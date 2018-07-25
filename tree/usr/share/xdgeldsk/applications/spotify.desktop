@@ -48,4 +48,4 @@ Categories=AudioVideo;Audio;Music;WebApp
 StartupNotify=true
 NoDisplay=false
 Icon=spotify
-Exec=web-launcher --app=http://play.spotify.com firefox chrome
+Exec=web-launcher --app=http://play.spotify.com 
