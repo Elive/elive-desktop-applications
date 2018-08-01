@@ -1,0 +1,13 @@
+# This is a replacement of the arandr tool to ours one, because it already uses arandr, so its a replacement
+[Desktop Entry]
+Name=Screen settings load conf
+GenericName=Loads your screen configuration
+Icon=display
+TryExec=elive-multiscreens
+Exec=elive-multiscreens -l -q
+Terminal=false
+Type=Application
+Categories=Settings;HardwareSettings;
+StartupNotify=true
+NoDisplay=true
+
