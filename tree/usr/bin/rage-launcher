@@ -16,13 +16,13 @@ main(){
 
     # don't use saved playlist if we are passing it
     if [[ -n "$@" ]] ; then
-        unset files
+        unset conf_files
     else
-        if [[ -n "$files" ]] ; then
-            if declare -p files 2>&1 | grep -qs "declare .* files" ; then
-                files_old=("${files[@]}")
+        if [[ -n "$conf_files" ]] ; then
+            if declare -p conf_files 2>&1 | grep -qs "declare .* conf_files" ; then
+                files_old=("${conf_files[@]}")
             else
-                files_old="${files}"
+                files_old="${conf_files}"
             fi
         fi
     fi
@@ -31,33 +31,33 @@ main(){
     for arg in "$@" "${files_old[@]}"
     do
         if [[ -s "${arg%.*}.srt" ]] && [[ -s "$arg" ]] ; then
-            el_array_member_add "$arg" "${files[@]}" ; files=("${_out[@]}")
-            el_array_member_add "-sub" "${files[@]}" ; files=("${_out[@]}")
-            el_array_member_add "${arg%.*}.srt" "${files[@]}" ; files=("${_out[@]}")
+            el_array_member_add "$arg" "${conf_files[@]}" ; conf_files=("${_out[@]}")
+            el_array_member_add "-sub" "${conf_files[@]}" ; conf_files=("${_out[@]}")
+            el_array_member_add "${arg%.*}.srt" "${conf_files[@]}" ; conf_files=("${_out[@]}")
             el_debug "added subtitle for $arg"
         else
             if [[ -s "$arg" ]] ; then
-                el_array_member_add "$arg" "${files[@]}" ; files=("${_out[@]}")
+                el_array_member_add "$arg" "${conf_files[@]}" ; conf_files=("${_out[@]}")
             fi
         fi
     done
 
     # if we have at least a working file, save the list, or re-use the last one
-    if [[ -s "${files}" ]] ; then
-        el_config_save files
+    if [[ -s "${conf_files}" ]] ; then
+        el_config_save "conf_files"
     else
         el_config_get
         # get again the list to know the working ones
-        for arg in "${files[@]}"
+        for arg in "${conf_files[@]}"
         do
             if [[ -s "${arg%.*}.srt" ]] && [[ -s "$arg" ]] ; then
-                el_array_member_add "$arg" "${files[@]}" ; files=("${_out[@]}")
-                el_array_member_add "-sub" "${files[@]}" ; files=("${_out[@]}")
-                el_array_member_add "${arg%.*}.srt" "${files[@]}" ; files=("${_out[@]}")
+                el_array_member_add "$arg" "${conf_files[@]}" ; conf_files=("${_out[@]}")
+                el_array_member_add "-sub" "${conf_files[@]}" ; conf_files=("${_out[@]}")
+                el_array_member_add "${arg%.*}.srt" "${conf_files[@]}" ; conf_files=("${_out[@]}")
                 el_debug "added subtitle for $arg"
             else
                 if [[ -s "$arg" ]] ; then
-                    el_array_member_add "$arg" "${files[@]}" ; files=("${_out[@]}")
+                    el_array_member_add "$arg" "${conf_files[@]}" ; conf_files=("${_out[@]}")
                 fi
             fi
         done
@@ -89,7 +89,7 @@ main(){
     #rm -f e.cfg.src module.comp.cfg.src
     #cd "$cd_previous"
 
-    rage $rage_opts "${files[@]}"
+    rage $rage_opts "${conf_files[@]}"
 
 }
 
