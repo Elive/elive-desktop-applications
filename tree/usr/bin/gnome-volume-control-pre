@@ -7,7 +7,7 @@ main(){
     # }}}
 
     # only if more than one card is found, ask if configure it
-    if [[ "$( cat /proc/asound/cards | grep -vE "\[(ThinkPadEC|NVidia|midi|MIDI|Dummy|system|Modem)" | grep -E "\[.*\]" | wc -l )" -gt 1 ]]  ; then
+    if ! [[ "$(which pulseaudio)" ]] && [[ "$( cat /proc/asound/cards | grep -vE "\[(ThinkPadEC|NVidia|midi|MIDI|Dummy|system|Modem)" | grep -E "\[.*\]" | wc -l )" -gt 1 ]]  ; then
 
         if zenity --question --text="Configure audio card?" ; then
             # first configure audios, because most of the times the user wants to configure audio first
@@ -16,7 +16,23 @@ main(){
         fi
     fi
 
-    gnome-volume-control "$@"
+
+    if [[ "$(which pavucontrol)" ]] ; then
+        pavucontrol "$@"
+    else
+        if [[ "$(which pulsemixer )" ]] ; then
+            /etc/alternatives/x-terminal-emulator -e "$@"
+        else
+            if [[ "$(which gnome-volume-control)" ]] ; then
+                gnome-volume-control "$@"
+            else
+                # no volume controls found
+                if true ; then
+                    zenity --error --info "No volume mixers applications found, please install one first"
+                fi
+            fi
+        fi
+    fi
 }
 
 #
