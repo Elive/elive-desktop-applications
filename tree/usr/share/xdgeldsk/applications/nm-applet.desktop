@@ -145,6 +145,7 @@ Exec=nm-applet
 Terminal=false
 Type=Application
 #NoDisplay=true
+Categories=System;Settings;
 NotShowIn=KDE;GNOME;
 X-GNOME-Bugzilla-Bugzilla=GNOME
 X-GNOME-Bugzilla-Product=NetworkManager
