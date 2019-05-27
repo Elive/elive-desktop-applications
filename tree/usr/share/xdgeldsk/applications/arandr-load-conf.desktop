@@ -86,4 +86,3 @@ Type=Application
 Categories=Settings;HardwareSettings;
 StartupNotify=true
 NoDisplay=true
-
