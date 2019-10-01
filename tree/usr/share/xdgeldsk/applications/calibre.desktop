@@ -81,6 +81,6 @@ GenericName[uk]=Організатор електронних книг та тр
 GenericName[vi]=Tổ chức Ebook và chuyển
 TryExec=calibre
 Exec=calibre
-Icon=calibre
+Icon=calibre-gui
 Categories=Education
 MimeType=application/vnd.amazon.ebook;application/vnd.ms-htmlhelp;image/vnd.djvu;application/vnd.openxmlformats-officedocument.wordprocessingml.document;application/x-dtbncx+xml;application/epub+zip;application/x-zip-compressed-fb2;application/xml

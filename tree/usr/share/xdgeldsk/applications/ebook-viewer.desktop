@@ -42,6 +42,6 @@ Name[vi]=Đọc sách điện tử
 #Comment=
 TryExec=ebook-viewer
 Exec=ebook-viewer %F
-Icon=calibre
+Icon=calibre-viewer
 MimeType=application/vnd.amazon.ebook;application/vnd.ms-htmlhelp;image/vnd.djvu;application/vnd.openxmlformats-officedocument.wordprocessingml.document;application/x-dtbncx+xml;application/epub+zip;application/x-zip-compressed-fb2;application/xml
 Categories=Education

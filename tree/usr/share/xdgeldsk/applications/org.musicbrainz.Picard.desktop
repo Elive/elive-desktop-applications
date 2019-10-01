@@ -83,6 +83,6 @@ Exec=picard %F
 Terminal=false
 Type=Application
 StartupNotify=true
-Icon=picard
+Icon=org.musicbrainz.Picard
 Categories=Audio;
 MimeType=audio/x-mp3;audio/ogg;audio/mpeg;application/ogg;audio/x-flac;audio/x-flac+ogg;audio/x-vorbis+ogg;audio/x-speex+ogg;audio/x-oggflac;audio/x-musepack;audio/x-tta;audio/x-ms-wma;audio/x-wavpack;
