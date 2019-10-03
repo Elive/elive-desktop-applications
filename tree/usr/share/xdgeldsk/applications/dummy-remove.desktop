@@ -5,5 +5,5 @@ Name=
 Type=Application
 Categories=Other;
 #StartupNotify=true
-# NOTE: XXX since we don't want it to appear in the launcher too, we removed all the entries
+# NOTE: this is a generic .desktop for the applications we don't want to appear in the menus and ALSO in the launchers, at all
 NoDisplay=true
