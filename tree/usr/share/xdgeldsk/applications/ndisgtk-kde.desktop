@@ -1,12 +1,1 @@
-[Desktop Entry]
-Name=Windows Wireless Drivers
-Comment=Ndiswrapper driver installation tool
-Exec=su-to-root -X -c "/usr/sbin/ndisgtk -- --kde"
-Icon=ndisgtk.png
-Terminal=false
-Type=Application
-OnlyShowIn=KDE;
-Categories=System;Settings;
-X-Ubuntu-Gettext-Domain=ndisgtk
-
-NoDisplay=true
+dummy-remove.desktop
