@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=
+#Exec=false
+Type=Application
+Categories=Other;
+#StartupNotify=true
+# NOTE: XXX since we don't want it to appear in the launcher too, we removed all the entries
+NoDisplay=true
