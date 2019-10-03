@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Name=dummy
+Exec=false
+Type=Application
+Categories=Other;
+#StartupNotify=true
+NoDisplay=true
