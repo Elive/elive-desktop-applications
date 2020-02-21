@@ -1,0 +1,15 @@
+#!/bin/bash
+#source /usr/lib/elive-tools/functions
+
+main(){
+
+    # we need to run this from a script so that it will work from thunar
+    gdebi-gtk "$@"
+}
+
+#
+#  MAIN
+#
+main "$@"
+
+# vim: set foldmethod=marker :
