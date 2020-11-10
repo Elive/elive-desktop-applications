@@ -47,4 +47,4 @@ Categories=Education;WebApp
 StartupNotify=true
 NoDisplay=false
 Icon=gnucash
-Exec=web-launcher --app=http://www.gapminder.org/tools/ chrome firefox chromium
+Exec=web-launcher --app=http://www.gapminder.org/tools/
