@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=Cinelerra
+Name=Cinelerra GG
 GenericName=Advanced professional video editor
 GenericName[az]=Ətraflı peşəkar video redaktoru
 GenericName[bg]=Разширено професионално видео редактор
@@ -39,8 +39,8 @@ GenericName[tl]=Advanced na propesyonal na video editor
 GenericName[tr]=Gelişmiş profesyonel video editörü
 GenericName[uk]=Розширений професійний відеоредактор
 GenericName[vi]=Trình chỉnh sửa video chuyên nghiệp nâng cao
-TryExec=cinelerra
-Exec=cinelerra
+TryExec=cinelerra-gg
+Exec=cinelerra-gg
 Terminal=false
 Type=Application
 StartupNotify=true
