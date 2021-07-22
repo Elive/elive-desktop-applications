@@ -86,4 +86,4 @@ Categories=Elive;Helper
 StartupNotify=true
 NoDisplay=false
 Icon=task-due
-Exec=web-launcher http://bugs.elivecd.org
+Exec=elive-bug-report
