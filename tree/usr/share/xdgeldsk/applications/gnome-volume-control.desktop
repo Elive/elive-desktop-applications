@@ -1,5 +1,8 @@
 [Desktop Entry]
 Name=Volume Control
+Name[eo]=Voluma Kontrolo
+Name[no]=Volumkontroll
+Name[tl]=Pagkontrol sa Dami
 Name[af]=Volumebeheer
 Name[ar]=التحكم في شدة الصوت
 Name[as]=শব্দৰ মাত্ৰা নিয়ন্ত্ৰণকৰ্তা
@@ -86,6 +89,14 @@ Name[zh_CN]=音量控制
 Name[zh_HK]=音量控制
 Name[zh_TW]=音量控制
 Comment=Change sound volume and sound events
+Comment[az]=Səs səviyyəsini və səs hadisələrini dəyişdirin
+Comment[eo]=Ŝanĝi sonvolumon kaj sonajn eventojn
+Comment[hr]=Promijenite glasnoću zvuka i zvučne događaje
+Comment[ms]=Tukar kelantangan suara dan peristiwa bunyi
+Comment[no]=Endre lydvolum og lydhendelser
+Comment[sk]=Zmeňte hlasitosť zvuku a zvukové udalosti
+Comment[tl]=Baguhin ang dami ng tunog at tunog na mga kaganapan
+Comment[vi]=Thay đổi âm lượng âm thanh và các sự kiện âm thanh
 Comment[af]=Verander klankvolume en klankgebeure
 Comment[ar]=غيّر شدة الصوت و أصوات الأحداث
 Comment[as]=শব্দৰ মাত্ৰা o নিৰ্দিষ্ট ঘটনাৰ সৈতে যুক্ত শব্দ পৰিবৰ্তন কৰক

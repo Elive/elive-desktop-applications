@@ -1,6 +1,26 @@
 [Desktop Entry]
 Type=Application
 Name=Wine Windows Program Loader
+Name[az]=Şərab Windows Proqram Yükləyicisi
+Name[bg]=Wine Windows Program Loader
+Name[bn]=ওয়াইন উইন্ডোজ প্রোগ্রাম লোডার
+Name[el]=Wine Windows Loader Program
+Name[eo]=Vina Fenestra Programo-Ŝargilo
+Name[et]=Wine Windowsi programmide laadija
+Name[fi]=Wine Windows -ohjelman lataaja
+Name[hi]=वाइन विंडोज प्रोग्राम लोडर
+Name[hu]=Wine Windows programbetöltő
+Name[id]=Pemuat Program Windows Anggur
+Name[ko]=와인 윈도우 프로그램 로더
+Name[lv]=Vīna Windows programmu ielādētājs
+Name[ms]=Pemuat Program Windows
+Name[no]=Wine Windows Program Loader
+Name[pl]=Program do wczytywania wina systemu Windows
+Name[sk]=Program Windows na načítanie programov
+Name[sl]=Wine Windows Program Loader
+Name[te]=వైన్ విండోస్ ప్రోగ్రామ్ లోడర్
+Name[tl]=Loader ng Programang Windows Windows
+Name[vi]=Trình tải chương trình Wine Windows
 Name[ar]=منظومة واين لتشغيل برامج وندوز
 Name[cs]=Zavaděč programů pro Wine
 Name[de]=Wine Windows-Programmstarter
