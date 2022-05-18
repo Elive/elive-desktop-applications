@@ -84,7 +84,7 @@ Name[de]=Bildschirmfoto aufnehmen
 Name[pt_BR]=Capturar tela
 Exec=/usr/bin/flameshot gui --delay 500
 Type=Application
-NoDisplay=true
+#NoDisplay=true
 
 [Desktop Action Launcher]
 Name=Open launcher
