@@ -3,7 +3,7 @@ Encoding=UTF-8
 Version=1.0
 Type=Application
 Terminal=false
-Name=Vsauce
+Name=Veritasium
 GenericName=Youtube educative channel
 GenericName[az]=Youtube təhsilli kanal
 GenericName[bg]=Youtube образователен канал
@@ -47,4 +47,4 @@ Categories=Education;WebApp
 StartupNotify=true
 NoDisplay=false
 Icon=video
-Exec=web-launcher --app="https://www.youtube.com/user/Vsauce/videos?flow=grid&view=0&sort=p"
+Exec=web-launcher --app="https://www.youtube.com/user/1veritasium/videos"
