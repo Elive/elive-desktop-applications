@@ -47,7 +47,7 @@ Actions=Configure;Capture;Launcher;
 X-DBUS-StartupType=Unique
 X-DBUS-ServiceName=org.flameshot.Flameshot
 X-KDE-DBUS-Restricted-Interfaces=org.kde.kwin.Screenshot
-NoDisplay=true
+#NoDisplay=true
 
 [Desktop Action Configure]
 Name=Configure
