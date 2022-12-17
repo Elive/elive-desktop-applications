@@ -4,6 +4,7 @@ Type=Application
 NoDisplay=true
 Terminal=true
 Name=Convert to Debian package
+Name[zh]=转换为 Debian 软件包
 Name[az]=Debian paketinə çevirin
 Name[bg]=Конвертиране в Debian пакета
 Name[bn]=ডেবিয়ান প্যাকেজ রূপান্তর করুন

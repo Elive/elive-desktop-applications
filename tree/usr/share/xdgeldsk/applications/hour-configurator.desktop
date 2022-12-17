@@ -2,6 +2,7 @@
 Type=Application
 Encoding=UTF-8
 Name=Hour configurator
+Name[zh]=小时配置器
 Name[az]=Saat konfiquratoru
 Name[bg]=Часовник конфигуратор
 Name[bn]=ঘন্টা কনফিগারেটর
@@ -41,6 +42,7 @@ Name[tr]=Saat yapılandırıcı
 Name[uk]=Конфігуратор години
 Name[vi]=Cấu hình giờ
 GenericName=Timezones
+GenericName[zh]=时区
 GenericName[az]=Saat dilimləri
 GenericName[bg]=Времеви зони
 GenericName[bn]=সময়ের অঞ্চলগুলোকে

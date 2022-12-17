@@ -1,6 +1,7 @@
 [Desktop Entry]
 Type=Application
 Name=LRF Viewer
+Name[zh]=LRF 查看器
 Name[az]=LRF Görüntüleyicisi
 Name[bg]=LRF Viewer
 Name[bn]=এলআরএফ ভিউয়ার
@@ -40,6 +41,7 @@ Name[tr]=LRF Görüntüleyici
 Name[uk]=Переглядач LRF
 Name[vi]=Trình xem LRF
 Comment=Viewer for LRF files (SONY ebook format files)
+Comment[zh]=LRF 文件查看器（SONY 电子书格式文件）
 Comment[az]=LRF faylları üçün görüntüleyici (SONY ebook formatlı fayllar)
 Comment[bg]=Преглед на LRF файлове (файлове във формат SONY ebook)
 Comment[bn]=এলআরএফ ফাইলের জন্য ভিউয়ার (সনি ইবুক ফরম্যাট ফাইল)

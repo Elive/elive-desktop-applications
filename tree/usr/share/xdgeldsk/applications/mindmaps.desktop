@@ -4,6 +4,7 @@ Version=1.0
 Type=Application
 Terminal=false
 Name=Mind maps
+Name[zh]=思维导图
 Name[az]=Mind xəritələri
 Name[bg]=Ум карти
 Name[bn]=মন মানচিত্র

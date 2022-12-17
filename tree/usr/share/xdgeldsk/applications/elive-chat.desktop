@@ -1,6 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
 Name=Help Chat
+Name[zh]=帮助聊天
 Name[vi]=Trợ giúp Chat
 Name[uk]=Допомога Чат
 Name[tr]=Sohbete Yardım
@@ -41,6 +42,7 @@ Name[bg]=Помощ Chat
 Name[bn]=সাহায্য চ্যাট
 Name[az]=Help Chat
 Comment=Chat with other Elive users and experts
+Comment[zh]=与其他 Elive 用户和专家聊天
 Comment[vi]=Trò chuyện với những người dùng và chuyên gia Elive khác
 Comment[uk]=Спілкуйтеся з іншими користувачами та експертами Elive
 Comment[tr]=Diğer Elive kullanıcıları ve uzmanlarıyla sohbet edin

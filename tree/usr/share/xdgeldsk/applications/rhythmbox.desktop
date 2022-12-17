@@ -1,5 +1,9 @@
 [Desktop Entry]
 Name=Rhythmbox
+Name[bn]=রিদমবক্স
+Name[no]=Rhythmbox
+Name[te]=రిథమ్బాక్స్
+Name[zh]=节奏盒
 Name[tl]=Rhythmbox
 Name[af]=Rhythmbox
 Name[ar]=أنغام
@@ -68,6 +72,7 @@ Name[zh_CN]=Rhythmbox
 Name[zh_HK]=Rhythmbox
 Name[zh_TW]=Rhythmbox
 GenericName=Music Player
+GenericName[zh]=音乐播放器
 GenericName[bn]=গান শোনার যন্ত্র
 GenericName[no]=Musikkspiller
 GenericName[tl]=Player ng Musika
@@ -143,6 +148,7 @@ GenericName[zh_CN]=音乐播放器
 GenericName[zh_HK]=音樂播放器
 GenericName[zh_TW]=音樂播放器
 Comment=Play and organize your music collection
+Comment[zh]=播放和整理您的音乐收藏
 Comment[bn]=আপনার সঙ্গীত সংগ্রহ চালান এবং সংগঠিত করুন
 Comment[no]=Spill og organiser musikksamlingen din
 Comment[tl]=Patugtugin at ayusin ang iyong koleksyon ng musika

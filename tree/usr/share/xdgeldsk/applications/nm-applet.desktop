@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=Internet
+Name[zh]=互联网
 Name[az]=İnternet
 Name[bg]=Интернет
 Name[bn]=ইন্টারনেটের
@@ -39,6 +40,7 @@ Name[tr]=Internet
 Name[uk]=Інтернет
 Name[vi]=Internet
 Comment=Manage your network connections
+Comment[zh]=管理您的网络连接
 Comment[az]=Şəbəkə bağlantılarınızı idarə edin
 Comment[bn]=আপনার নেটওয়ার্ক সংযোগগুলি পরিচালনা করুন
 Comment[no]=Administrer nettverkstilkoblingene dine

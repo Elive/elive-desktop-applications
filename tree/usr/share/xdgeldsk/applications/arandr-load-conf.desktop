@@ -1,6 +1,7 @@
 # This is a replacement of the arandr tool to ours one, because it already uses arandr, so its a replacement
 [Desktop Entry]
 Name=Screen settings loader
+Name[zh]=屏幕设置加载器
 Name[az]=Ekran parametrləri yükləyicisi
 Name[bg]=Навигатор за настройките на екрана
 Name[bn]=স্ক্রিন সেটিংস লোডার
@@ -40,6 +41,7 @@ Name[tr]=Ekran ayarları yükleyici
 Name[uk]=Завантажувач налаштувань екрана
 Name[vi]=Trình tải cài đặt màn hình
 GenericName=Loads your screen configuration
+GenericName[zh]=加载您的屏幕配置
 GenericName[az]=Ekran konfiqurasiyasını yükləyir
 GenericName[bg]=Зарежда конфигурацията на екрана ви
 GenericName[bn]=আপনার পর্দা কনফিগারেশন লোড

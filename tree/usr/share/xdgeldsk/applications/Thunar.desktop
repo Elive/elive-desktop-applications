@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=Thunar File Manager
+Name[zh]=文件管理器
 Name[az]=Thunar Fayl Meneceri
 Name[bg]=Файлов мениджър Thunar
 Name[hi]=थूनर फ़ाइल प्रबंधक
@@ -61,6 +62,7 @@ Name[vi]=Trình quản lý tập tin Thunar
 Name[zh_CN]=Thunar 文件管理器
 Name[zh_TW]=Thunar 檔案管理員
 Comment=Browse the filesystem with the file manager
+Comment[zh]=使用文件管理器浏览文件系统
 Comment[az]=Fayl meneceri ilə fayl sisteminə baxın
 Comment[bg]=Прегледайте файловата система с файловия мениджър
 Comment[hi]=फ़ाइल प्रबंधक के साथ फ़ाइल सिस्टम ब्राउज़ करें
@@ -120,6 +122,7 @@ Comment[vi]=Duyệt hê thống tập tin với trình quản lý tập tin
 Comment[zh_CN]=使用文件管理器浏览文件系统
 Comment[zh_TW]=使用檔案管理員瀏覽檔案系統
 GenericName=Files
+GenericName[zh]=文件
 GenericName[az]=Fayllar
 GenericName[bg]=Файлове
 GenericName[bn]=নথি পত্র

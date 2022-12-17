@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=Volume Control
+Name[zh]=音量控制
 Name[eo]=Voluma Kontrolo
 Name[no]=Volumkontroll
 Name[tl]=Pagkontrol sa Dami
@@ -89,6 +90,7 @@ Name[zh_CN]=音量控制
 Name[zh_HK]=音量控制
 Name[zh_TW]=音量控制
 Comment=Change sound volume and sound events
+Comment[zh]=更改音量和声音事件
 Comment[az]=Səs səviyyəsini və səs hadisələrini dəyişdirin
 Comment[eo]=Ŝanĝi sonvolumon kaj sonajn eventojn
 Comment[hr]=Promijenite glasnoću zvuka i zvučne događaje

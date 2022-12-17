@@ -2,6 +2,7 @@
 Version=1.0
 Encoding=UTF-8
 Name=Alternatives Configurator
+Name[zh]=备选配置器
 Name[az]=Alternativ Konfiqurator
 Name[bg]=Конфигуратор за алтернативи
 Name[bn]=বিকল্প কনফিগারেটর
@@ -42,6 +43,7 @@ Name[fr]=Configurateur d'alternatives
 Name[pt_BR]=Configurador de Alternativas
 Name[sv]=Alternativkonfiguratorn
 Comment=Configure the system default alternatives
+Comment[zh]=配置系统默认选项
 Comment[az]=Sistemin standart alternativlərini konfiqurasiya edin
 Comment[bg]=Конфигурирайте системните алтернативи по подразбиране
 Comment[bn]=সিস্টেমের ডিফল্ট বিকল্প কনফিগার করুন

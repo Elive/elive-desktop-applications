@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=Web Firefox
+Name[zh]=网络火狐
 Name[az]=Veb Firefox
 Name[bg]=Уеб Firefox
 Name[bn]=ওয়েব ফায়ারফক্স
@@ -39,6 +40,7 @@ Name[tr]=Web Firefox'u
 Name[uk]=Веб -Firefox
 Name[vi]=Web Firefox
 Comment=Browse the World Wide Web
+Comment[zh]=浏览万维网
 Comment[az]=World Wide Web -ə baxın
 Comment[bn]=ওয়ার্ল্ড ওয়াইড ওয়েব ব্রাউজ করুন
 Comment[da]=Gennemse World Wide Web
@@ -82,6 +84,7 @@ Comment[ru]=Обозреватель Всемирной Паутины
 Comment[sk]=Prehliadanie internetu
 Comment[sv]=Surfa på webben
 GenericName=Web Browser
+GenericName[zh]=网页浏览器
 GenericName[az]=Veb Brauzer
 GenericName[bn]=ওয়েব ব্রাউজার
 GenericName[da]=Webbrowser

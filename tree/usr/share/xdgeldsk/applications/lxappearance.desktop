@@ -1,6 +1,7 @@
 [Desktop Entry]
 Type=Application
 Name=Customize Look and Feel
+Name[zh]=自定义外观
 Name[az]=Baxış və hissləri fərdiləşdirin
 Name[bn]=কাস্টমাইজ চেহারা এবং অনুভূতি
 Name[ca]=Personalitza l’aspecte i la sensació
@@ -57,6 +58,7 @@ Name[vi]=Tùy chỉnh Giao diện
 Name[zh_CN]=自定义外观和体验
 Name[zh_TW]=自訂外觀風格
 GenericName=Customize GTK theme, icons and fonts
+GenericName[zh]=自定义 GTK 主题、图标和字体
 GenericName[az]=GTK mövzusunu, nişanlar və şriftləri özelleştirin
 GenericName[bg]=Персонализирайте темата, иконите и шрифтовете на GTK
 GenericName[bn]=GTK থিম, আইকন এবং ফন্ট কাস্টমাইজ করুন
@@ -96,6 +98,7 @@ GenericName[tr]=GTK temasını, simgeleri ve yazı tiplerini özelleştirme
 GenericName[uk]=Налаштуйте тему, іконки та шрифти GTK
 GenericName[vi]=Tùy chỉnh chủ đề, biểu tượng và phông chữ GTK
 Comment=Customizes look and feel for GTK applications, fonts and icons
+Comment[zh]=自定义 GTK 应用程序、字体和图标的外观
 Comment[az]=GTK tətbiqləri, yazı tipləri və ikonları üçün görünüşünü və hisslərini özelleştirir
 Comment[bg]=Персонализира изгледа и усещането за GTK приложения, шрифтове и икони
 Comment[bn]=GTK অ্যাপ্লিকেশন, ফন্ট এবং আইকনের জন্য চেহারা এবং অনুভূতি কাস্টমাইজ করে

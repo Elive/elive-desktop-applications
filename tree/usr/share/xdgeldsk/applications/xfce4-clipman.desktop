@@ -2,6 +2,7 @@
 Version=1.0
 Type=Application
 Name=Multiple copy and paste
+Name[zh]=多次复制粘贴
 Name[az]=Bir neçə surəti və yapışdırıb
 Name[bg]=Множество копиране и поставяне
 Name[bn]=একাধিক কপি এবং পেস্ট
@@ -41,6 +42,7 @@ Name[tr]=Birden çok kopyala ve yapıştır
 Name[uk]=Кілька копіювати і вставляти
 Name[vi]=Nhiều bản sao và dán
 Comment=Clipboard manager
+Comment[zh]=剪贴板管理器
 Comment[az]=Pano meneceri
 Comment[bg]=Мениджър на клипборда
 Comment[bn]=ক্লিপবোর্ড ম্যানেজার

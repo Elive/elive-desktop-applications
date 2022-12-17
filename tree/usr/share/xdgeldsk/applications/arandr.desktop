@@ -1,6 +1,7 @@
 # This is a replacement of the arandr tool to ours one, because it already uses arandr, so its a replacement
 [Desktop Entry]
 Name=Screen settings
+Name[zh]=屏幕设置
 Name[az]=Ekran parametrləri
 Name[bg]=Настройки на екрана
 Name[bn]=স্ক্রিন সেটিংস
@@ -40,6 +41,7 @@ Name[tr]=Ekran ayarları
 Name[uk]=Налаштування екрана
 Name[vi]=Cài đặt màn hình
 GenericName=Resolutions and multiple screens with their positionings
+GenericName[zh]=分辨率和多个屏幕及其定位
 GenericName[az]=Qərarlar və mövqeləri ilə çox ekranlar
 GenericName[bg]=Резолюции и множество екрани с тяхното разположение
 GenericName[bn]=তাদের অবস্থান সঙ্গে রেজোলিউশন এবং একাধিক স্ক্রিন

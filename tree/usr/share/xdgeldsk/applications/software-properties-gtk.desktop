@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=Software and updates
+Name[zh]=软件和更新
 Name[az]=Proqram təminatı və yeniləmələr
 Name[bg]=Софтуер и актуализации
 Name[bn]=সফটওয়্যার এবং আপডেট
@@ -39,6 +40,7 @@ Name[tr]=Yazılım ve güncellemeler
 Name[uk]=Програмне забезпечення та оновлення
 Name[vi]=Phần mềm và bản cập nhật
 GenericName=Software and updates
+GenericName[zh]=软件和更新
 GenericName[az]=Proqram təminatı və yeniləmələr
 GenericName[bg]=Софтуер и актуализации
 GenericName[bn]=সফটওয়্যার এবং আপডেট
@@ -78,6 +80,7 @@ GenericName[tr]=Yazılım ve güncellemeler
 GenericName[uk]=Програмне забезпечення та оновлення
 GenericName[vi]=Phần mềm và bản cập nhật
 Comment=Configure the sources for installable software and updates
+Comment[zh]=配置可安装软件和更新的来源
 Comment[az]=Quraşdırıla bilən proqram və yeniləmələr üçün mənbələri konfiqurasiya edin
 Comment[bg]=Конфигурирайте източниците за инсталируем софтуер и актуализации
 Comment[bn]=ইনস্টলযোগ্য সফটওয়্যার এবং আপডেটের জন্য উৎস কনফিগার করুন

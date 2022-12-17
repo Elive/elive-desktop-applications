@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=Eagle Mode
+Name[zh]=老鹰模式
 Name[az]=Qartal rejimi
 Name[bg]=Орелов режим
 Name[bn]=Agগল মোড
@@ -39,6 +40,7 @@ Name[tr]=Kartal Modu
 Name[uk]=Режим орла
 Name[vi]=Chế độ Eagle
 Comment=Zoomable user interface with plugin applications
+Comment[zh]=带有插件应用程序的可缩放用户界面
 Comment[az]=Plugin proqramları ilə zəif istifadəçi interfeysi
 Comment[bg]=Уголемен потребителски интерфейс с приложения за приставки
 Comment[bn]=প্লাগইন অ্যাপ্লিকেশনের সাথে জুম ইন ইউজার ইন্টারফেস
@@ -78,6 +80,7 @@ Comment[tr]=Eklenti uygulamaları ile yakınlaştırılabilir kullanıcı arabir
 Comment[uk]=Масштабний користувальницький інтерфейс із додатковими додатками
 Comment[vi]=Giao diện người dùng có thể mở rộng với các ứng dụng plugin
 GenericName=Zoom-based filemanager
+GenericName[zh]=基于缩放的文件管理器
 GenericName[az]=Zoom əsaslı filemanager
 GenericName[bg]=Управляващ файла
 GenericName[bn]=জুম-ভিত্তিক ফাইলম্যানাইজার

@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=Icedove -> Thunderbird
+Name[zh]=冰鸽 ->雷鸟
 Comment=Read/Write Mail/News with Thunderbird
 GenericName=Mail Client
 TryExec=/usr/bin/icedove
