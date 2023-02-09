@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=MilkyTracker
+Comment=Fasttracker 2 Clone
+Comment[fr]=Clone de Fasttracker 2
+Terminal=false
+TryExec=milkytracker
+Exec=milkytracker %f
+Type=Application
+Icon=milkytracker
+Categories=GNOME;AudioVideo;Audio;Video;
+MimeType=audio/x-xm;audio/x-mod
