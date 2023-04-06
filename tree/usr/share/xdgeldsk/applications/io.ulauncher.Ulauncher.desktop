@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.5
+Name=Ulauncher
+Comment=Application launcher for Linux
+GenericName=Launcher
+Categories=GNOME;GTK;Utility;
+TryExec=ulauncher
+Exec=ulauncher
+Icon=ulauncher
+SingleMainWindow=true
+Terminal=false
+Type=Application
+X-GNOME-UsesNotifications=true
+NoDisplay=true
