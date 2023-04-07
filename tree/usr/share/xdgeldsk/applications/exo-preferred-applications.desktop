@@ -92,4 +92,7 @@ Comment[uk]=Бажані програми (веб -браузер, зчитув�
 Comment[vi]=Ứng dụng ưa thích (Trình duyệt web, Trình đọc thư và Trình giả lập đầu cuối)
 X-XfcePluggable=true
 X-XfceHelpFile=exo-preferred-applications.html
+
 NoDisplay=true
+OnlyShowIn=Unity;
+

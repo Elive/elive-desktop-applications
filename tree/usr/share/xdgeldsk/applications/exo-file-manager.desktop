@@ -90,4 +90,7 @@ Comment[tl]=I-browse ang file system
 Comment[tr]=Dosya sistemine göz atın
 Comment[uk]=Перегляньте файлову систему
 Comment[vi]=Duyệt qua hệ thống tệp
+
 NoDisplay=true
+OnlyShowIn=Unity;
+

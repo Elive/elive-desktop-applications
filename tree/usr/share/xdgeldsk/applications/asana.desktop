@@ -46,6 +46,9 @@ GenericName[tr]=Görevler ve projeler organizatörü
 GenericName[vi]=Nhiệm vụ và người tổ chức dự án
 Categories=Utilities;Development;Organizer;WebApp
 StartupNotify=true
-NoDisplay=false
+
+#NoDisplay=false
+#OnlyShowIn=Unity;
+
 Icon=task-due
 Exec=web-launcher --app=http://app.asana.com

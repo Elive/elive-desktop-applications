@@ -6,4 +6,7 @@ Type=Application
 Categories=Other;
 #StartupNotify=true
 # NOTE: this is a generic .desktop for the applications we don't want to appear in the menus and ALSO in the launchers, at all
+
 NoDisplay=true
+OnlyShowIn=Unity;
+

@@ -87,6 +87,6 @@ Comment[bn]=Elive উন্নত করতে সাহায্য
 Comment[az]=Elive yaxşılaşdırılması üçün kömək
 Categories=Elive;Development;WebApp
 StartupNotify=true
-NoDisplay=false
+#NoDisplay=false
 Icon=gwget
 Exec=web-launcher http://www.elivecd.org/collaborate/

@@ -90,4 +90,7 @@ Comment[tl]=Basahin ang iyong email
 Comment[tr]=E-postanızı okuyun
 Comment[uk]=Прочитайте свою електронну пошту
 Comment[vi]=Đọc email của bạn
+
 NoDisplay=true
+OnlyShowIn=Unity;
+

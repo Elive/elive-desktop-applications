@@ -23,4 +23,6 @@ Exec=terminology
 Icon=terminology
 Categories=System;TerminalEmulator;
 StartupWMClass=terminology
+
 NoDisplay=true
+OnlyShowIn=Unity;

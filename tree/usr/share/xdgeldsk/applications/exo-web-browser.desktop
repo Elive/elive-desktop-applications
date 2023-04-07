@@ -90,4 +90,7 @@ Comment[tl]=Mag-browse sa web
 Comment[tr]=Web'e göz atın
 Comment[uk]=Перегляньте веб -сторінки
 Comment[vi]=Duyệt web
+
 NoDisplay=true
+OnlyShowIn=Unity;
+

@@ -7,4 +7,7 @@ Exec=/usr/sbin/lmt-config-gui-pkexec
 Categories=System;
 Comment=Enable/disable Laptop Mode Tools settings
 Keywords=Preferences;
+
 NoDisplay=true
+OnlyShowIn=Unity;
+

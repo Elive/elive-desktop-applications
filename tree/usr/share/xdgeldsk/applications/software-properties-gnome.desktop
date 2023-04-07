@@ -141,4 +141,6 @@ Categories=GNOME;GTK;Settings;X-GNOME-SystemSettings;
 MimeType=text/x-apt-sources-list;
 X-KDE-SubstituteUID=true
 X-Ubuntu-Gettext-Domain=software-properties
+
 NoDisplay=true
+OnlyShowIn=Unity;

@@ -34,4 +34,7 @@ TryExec=elementary_test
 Exec=elementary_test
 Terminal=false
 Categories=Development;Utility;
+
 NoDisplay=true
+OnlyShowIn=Unity;
+

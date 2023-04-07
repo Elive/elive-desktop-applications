@@ -46,6 +46,6 @@ Name[uk]=Карти розуму
 Name[vi]=Sơ đồ tư duy
 Categories=Utilities;FlowChart;Organizer;WebApp
 StartupNotify=true
-NoDisplay=false
+#NoDisplay=false
 Icon=dia
 Exec=web-launcher --app=http://my-mind.github.io

@@ -44,4 +44,6 @@ GenericName[uk]=Багатоцільова панель та віжети.
 GenericName[uz]=Кўп мақсадли Док ва Десклетлар
 
 Categories=System;
+
 NoDisplay=true
+OnlyShowIn=Unity;

@@ -10,4 +10,7 @@ TryExec=elementary_perf
 Exec=elementary_perf
 Terminal=false
 Categories=Development;Utility;
+
 NoDisplay=true
+OnlyShowIn=Unity;
+

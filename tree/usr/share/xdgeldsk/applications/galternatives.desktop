@@ -91,4 +91,7 @@ X-GNOME-DocPath=
 Terminal=false
 Categories=GTK;Application;System;
 StartupNotify=true
+
 NoDisplay=true
+OnlyShowIn=Unity;
+

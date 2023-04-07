@@ -87,6 +87,6 @@ Comment[bn]=সাবস্ক্রাইব
 Comment[az]=Yazılmaq
 Categories=Elive;WebApp
 StartupNotify=true
-NoDisplay=false
+#NoDisplay=false
 Icon=text-x-news
 Exec=web-launcher http://www.elivecd.org/newsletters

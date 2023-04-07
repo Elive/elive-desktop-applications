@@ -84,6 +84,6 @@ Terminal=true
 Type=Application
 StartupNotify=true
 Icon=utilities-system-monitor
-# we don't want to show it, but at least we have the launcher
+# we don't want to show it, but at least we have the launcher?
 NoDisplay=true
 Categories=System;

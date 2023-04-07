@@ -50,4 +50,6 @@ Keywords=shell;prompt;command;commandline;
 Icon=terminology
 Categories=System;TerminalEmulator;
 StartupWMClass=x-terminal-emulator
+
 NoDisplay=true
+OnlyShowIn=Unity;

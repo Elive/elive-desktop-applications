@@ -85,6 +85,9 @@ GenericName[uk]=Синхронізований календар з багать�
 GenericName[vi]=Lịch được đồng bộ hóa đa cấp
 Categories=Utilities;Development;Organizer;WebApp
 StartupNotify=true
-NoDisplay=false
+
+#NoDisplay=false
+#OnlyShowIn=Unity;
+
 Icon=calendar
 Exec=web-launcher --app=http://calendar.google.com

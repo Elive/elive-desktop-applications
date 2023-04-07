@@ -46,6 +46,6 @@ GenericName[uk]=Ідеї ​​варто поширювати
 GenericName[vi]=Ý tưởng giá trị lan rộng
 Categories=Education;WebApp
 StartupNotify=true
-NoDisplay=false
+#NoDisplay=false
 Icon=video
 Exec=web-launcher --app=http://www.ted.com

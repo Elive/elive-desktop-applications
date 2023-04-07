@@ -46,4 +46,6 @@ Terminal=false
 Type=Application
 Keywords=USB;devices;connected;removable;
 Categories=GTK;HardwareSettings;Settings;
+
 NoDisplay=true
+OnlyShowIn=Unity;

@@ -87,4 +87,6 @@ Comment[uk]=Налаштування сторонніх та власних др
 Comment[vi]=Định cấu hình trình điều khiển của bên thứ ba và trình điều khiển độc quyền
 Comment[es]=Configure controladores privativos y de terceros
 X-AppStream-Ignore=true
+
 NoDisplay=true
+OnlyShowIn=Unity;

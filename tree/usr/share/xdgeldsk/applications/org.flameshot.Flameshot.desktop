@@ -126,7 +126,10 @@ Name[es]=Configurar
 Name[de]=Einstellungen
 Name[pt_BR]=Configurar
 Exec=/usr/bin/flameshot config
+
 NoDisplay=true
+OnlyShowIn=Unity;
+
 
 [Desktop Action Capture]
 Name=Take screenshot
@@ -156,4 +159,7 @@ Name[sk]=Otvoriť spúšťač
 Name[zh_CN]=打开启动器
 Name[pt_BR]=Abrir lançador
 Exec=/usr/bin/flameshot launcher
+
 NoDisplay=true
+OnlyShowIn=Unity;
+

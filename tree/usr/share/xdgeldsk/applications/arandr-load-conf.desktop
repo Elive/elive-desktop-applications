@@ -87,5 +87,7 @@ Terminal=false
 Type=Application
 Categories=Settings;HardwareSettings;
 StartupNotify=true
+
 NoDisplay=true
+OnlyShowIn=Unity;
 

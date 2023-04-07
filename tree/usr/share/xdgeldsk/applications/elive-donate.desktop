@@ -86,6 +86,6 @@ Comment[uk]=пожертвування
 Comment[vi]=Quyên góp
 Categories=Elive;WebApp
 StartupNotify=true
-NoDisplay=false
+#NoDisplay=false
 Icon=znes
 Exec=web-launcher "http://www.elivecd.org/donate/?id=donate-elive-os-emenus"

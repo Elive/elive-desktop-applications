@@ -88,4 +88,6 @@ Comment[tl]=Gamitin ang linya ng utos
 Comment[tr]=Komut satırını kullanın
 Comment[uk]=Використовуйте командний рядок
 Comment[vi]=Sử dụng dòng lệnh
+
 NoDisplay=true
+OnlyShowIn=Unity;

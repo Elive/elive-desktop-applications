@@ -87,6 +87,6 @@ Comment[bn]=Elive সম্পর্কে প্রচলিত প্রশ্
 Comment[az]=Elive haqqında Ümumi Suallar
 Categories=Elive;Help;WebApp
 StartupNotify=true
-NoDisplay=false
+#NoDisplay=false
 Icon=help-browser
 Exec=web-launcher http://www.elivecd.org/faqs/

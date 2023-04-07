@@ -87,6 +87,9 @@ Comment[bn]=Elive ফেসবুক পাতা
 Comment[az]=Elive Facebook səhifə
 Categories=Elive;Help;WebApp
 StartupNotify=true
+
 NoDisplay=true
+OnlyShowIn=Unity;
+
 Icon=facebook
 Exec=web-launcher http://facebook.com/elive

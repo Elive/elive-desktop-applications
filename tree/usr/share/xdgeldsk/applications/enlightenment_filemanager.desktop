@@ -27,3 +27,5 @@ StartupNotify=false
 StartupWMClass=e_fm
 
 NoDisplay=true
+OnlyShowIn=Unity;
+

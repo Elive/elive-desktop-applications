@@ -86,6 +86,6 @@ Comment[bn]=বাগ ও পরামর্শ বিটিএস
 Comment[az]=Bugs və təkliflər BTS
 Categories=Elive;Helper
 StartupNotify=true
-NoDisplay=false
+#NoDisplay=false
 Icon=task-due
 Exec=elive-bug-report

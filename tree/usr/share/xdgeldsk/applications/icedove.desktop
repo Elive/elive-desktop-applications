@@ -17,4 +17,7 @@ Icon=thunderbird
 StartupWMClass=Thunderbird
 StartupNotify=true
 # don't show Icedove since we switched back to thunderbird
+
 NoDisplay=true
+OnlyShowIn=Unity;
+

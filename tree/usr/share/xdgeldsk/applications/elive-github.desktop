@@ -87,6 +87,6 @@ Comment[bn]=গিটহাব
 Comment[az]=Github
 Categories=Elive;Development;WebApp
 StartupNotify=true
-NoDisplay=false
+#NoDisplay=false
 Icon=text-xml
 Exec=web-launcher http://github.com/Elive

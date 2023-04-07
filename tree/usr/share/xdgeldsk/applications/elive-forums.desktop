@@ -87,6 +87,6 @@ Comment[bn]=আলোচনা ও বিষয় টপিক
 Comment[az]=Müzakirələr və mövzular Threads
 Categories=Elive;Help;WebApp
 StartupNotify=true
-NoDisplay=false
+#NoDisplay=false
 Icon=msn
 Exec=web-launcher http://forum.elivelinux.org

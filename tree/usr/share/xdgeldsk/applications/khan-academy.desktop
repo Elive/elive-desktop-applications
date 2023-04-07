@@ -6,6 +6,6 @@ Terminal=false
 Name=Khan Academy
 Categories=Education;WebApp
 StartupNotify=true
-NoDisplay=false
+#NoDisplay=false
 Icon=kedit
 Exec=web-launcher --app=http://www.khanacademy.org

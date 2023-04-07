@@ -1,5 +1,4 @@
 [Desktop Entry]
-Encoding=UTF-8
 Version=1.0
 Type=Application
 Terminal=true
@@ -87,7 +86,7 @@ GenericName[uk]=Сканування диска та відновлення вт
 GenericName[vi]=Quét một đĩa và phục hồi các tập tin bị mất
 Categories=System;Utility;FileTools;FileManager
 StartupNotify=true
-NoDisplay=false
+#NoDisplay=false
 Icon=gwget
 TryExec=photorec
 Exec=photorec

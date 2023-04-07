@@ -45,6 +45,6 @@ GenericName[uk]=Зрозумійте світовий прогрес, щоб з�
 GenericName[vi]=Hiểu được tiến bộ của thế giới để thay đổi tương lai
 Categories=Education;WebApp
 StartupNotify=true
-NoDisplay=false
+#NoDisplay=false
 Icon=gnucash
 Exec=web-launcher --app=http://www.gapminder.org/tools/

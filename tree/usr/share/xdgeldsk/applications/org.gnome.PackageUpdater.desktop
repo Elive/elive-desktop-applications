@@ -204,4 +204,7 @@ Keywords=Updates;Upgrade;
 NotShowIn=KDE;
 StartupNotify=true
 X-GNOME-UsesNotifications=true
+
 NoDisplay=true
+OnlyShowIn=Unity;
+

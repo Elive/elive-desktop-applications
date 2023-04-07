@@ -86,6 +86,6 @@ GenericName[uk]=Музика онлайн
 GenericName[vi]=Âm nhạc trực tuyến
 Categories=AudioVideo;Audio;Music;WebApp
 StartupNotify=true
-NoDisplay=false
+#NoDisplay=false
 Icon=jajuk
 Exec=web-launcher --app=https://music.youtube.com
