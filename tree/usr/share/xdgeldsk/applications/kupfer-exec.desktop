@@ -1,0 +1,39 @@
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=kupfer-exec %F
+Name=Execute in Kupfer
+Name[bs]=Izvršite u Kupfer
+Name[cs]=Spustit v aplikaci Kupfer
+Name[da]=Kør i Kupfer
+Name[de]=In Kupfer ausführen
+Name[el]=Εκτέλεση στο Kupfer
+Name[es]=Ejecutar en Kupfer
+Name[eu]=Kupfer-en exekutatu
+Name[fr]=Exécuter dans Kupfer
+Name[gl]=Executar en Kupfer
+Name[hu]=Végrehajtás a Kupferben
+Name[it]=Esegui in Kupfer
+Name[ko]=쿠퍼에서 실행
+Name[nb]=Kjør i Kupfer
+Name[pl]=Wykonaj w programie Kupfer
+Name[pt]=Executar no Kupfer
+Name[pt_BR]=Executar no Kupfer
+Name[ro]=Execută în Kupfer
+Name[ru]=Выполнить в Kupfer
+Name[sk]=Spustiť v aplikácii Kupfer
+Name[sl]=Izvedi v Kupferju
+Name[sr]=Изврши у Бакарнику
+Name[sr@latin]=Izvrši u Bakarniku
+Name[sv]=Kör i Kupfer
+Name[tr]=Kupfer içinde çalıştır
+Name[zh_CN]=在 Kupfer 中执行
+Icon=kupfer
+NoDisplay=true
+StartupNotify=true
+
+NoDisplay=true
+OnlyShowIn=Unity;
+
+MimeType=text/x-kfcom;
