@@ -4,18 +4,25 @@ main(){
     # pre {{{
     local var
 
-    if [[ -n "$(pidof pulseaudio)" ]] ; then
+    if [[ -e /var/lib/dpkg/info/pulseaudio.list ]] ; then
         is_pulseaudio=1
     fi
     # }}}
 
     # only if more than one card is found, ask if configure it
-    if ! ((is_pulseaudio)) && [[ "$( cat /proc/asound/cards | grep -vE "\[(ThinkPadEC|NVidia|midi|MIDI|Dummy|system|Modem)" | grep -E "\[.*\]" | wc -l )" -gt 1 ]]  ; then
+    if ((is_pulseaudio)) ; then
+        if ! [[ -n "$(pidof pulseaudio)" ]] ; then
+            touch "$HOME/.asoundrc-reconfigureme"
+            elive-audio-fixes
+        fi
+    else
+        if [[ "$( cat /proc/asound/cards | grep -vE "\[(ThinkPadEC|NVidia|midi|MIDI|Dummy|system|Modem)" | grep -E "\[.*\]" | wc -l )" -gt 1 ]]  ; then
 
-        if zenity --question --text="Configure audio card?" ; then
-            # first configure audios, because most of the times the user wants to configure audio first
-            audio-configurator
-            # also: the configurator runs the volumes defaults, which is what the user should want too...
+            if zenity --question --text="Configure audio card?" ; then
+                # first configure audios, because most of the times the user wants to configure audio first
+                audio-configurator
+                # also: the configurator runs the volumes defaults, which is what the user should want too...
+            fi
         fi
     fi
 
