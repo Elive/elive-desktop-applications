@@ -4,10 +4,13 @@ main(){
     # pre {{{
     local var
 
+    if [[ -n "$(pidof pulseaudio)" ]] ; then
+        is_pulseaudio=1
+    fi
     # }}}
 
     # only if more than one card is found, ask if configure it
-    if ! [[ "$(which pulseaudio)" ]] && [[ "$( cat /proc/asound/cards | grep -vE "\[(ThinkPadEC|NVidia|midi|MIDI|Dummy|system|Modem)" | grep -E "\[.*\]" | wc -l )" -gt 1 ]]  ; then
+    if ! ((is_pulseaudio)) && [[ "$( cat /proc/asound/cards | grep -vE "\[(ThinkPadEC|NVidia|midi|MIDI|Dummy|system|Modem)" | grep -E "\[.*\]" | wc -l )" -gt 1 ]]  ; then
 
         if zenity --question --text="Configure audio card?" ; then
             # first configure audios, because most of the times the user wants to configure audio first
@@ -16,22 +19,43 @@ main(){
         fi
     fi
 
-
-    if [[ "$(which pavucontrol)" ]] ; then
-        pavucontrol "$@"
-    else
-        if [[ "$(which pulsemixer )" ]] ; then
-            /etc/alternatives/x-terminal-emulator -e "$@"
+    # pulseaudio mode
+    if ((is_pulseaudio)) ; then
+        if [[ -x "$(which pavucontrol)" ]] ; then
+            pavucontrol "$@"
+            is_volume_run=1
         else
-            if [[ "$(which gnome-volume-control)" ]] ; then
-                gnome-volume-control "$@"
+            if [[ -x "$(which pulsemixer )" ]] ; then
+                /etc/alternatives/x-terminal-emulator -e "pulsemixer"
+                is_volume_run=1
             else
-                # no volume controls found
-                if true ; then
-                    zenity --error --info "No volume mixers applications found, please install one first"
+                if [[ -x "$(which gnome-volume-control)" ]] ; then
+                    gnome-volume-control "$@"
+                    is_volume_run=1
                 fi
             fi
         fi
+    else
+        # ALSA mode:
+        if [[ -x "$(which qasmixer)" ]] ; then
+            qasmixer
+            is_volume_run=1
+        else
+            if [[ -x "$(which alsamixergui)" ]] ; then
+                alsamixergui
+                is_volume_run=1
+            else
+                if [[ -x "$(which alsamixer )" ]] ; then
+                    /etc/alternatives/x-terminal-emulator -e "alsamixer"
+                    is_volume_run=1
+                fi
+            fi
+        fi
+    fi
+
+    if ! ((is_volume_run)) ; then
+        # no volume controls found
+        zenity --error --text="No volume mixers applications found, please install one first"
     fi
 }
 
