@@ -6,7 +6,7 @@ Icon=preferences-desktop-default-applications
 Type=Application
 Categories=X-XFCE;Settings;DesktopSettings;X-XfceSettingsDialog;
 # NOTE: these dont works in efl 1.13, so let's use NoDisplay
-OnlyShowIn=XFCE;
+#OnlyShowIn=XFCE;
 NotShowIn=X-Enlightenment;
 Terminal=false
 StartupNotify=true

@@ -52,5 +52,5 @@ X-MultipleArgs=false
 Type=Application
 Categories=GTK;Utility;TerminalEmulator;
 
-NoDisplay=true
+#NoDisplay=true
 OnlyShowIn=Unity;

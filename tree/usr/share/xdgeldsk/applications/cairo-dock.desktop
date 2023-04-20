@@ -35,5 +35,5 @@ GenericName[uz]=Кўп мақсадли Док ва Десклетлар
 
 Categories=System;
 
-NoDisplay=true
+#NoDisplay=true
 OnlyShowIn=Unity;

@@ -10,6 +10,6 @@ Icon=calibre-viewer
 MimeType=application/x-sony-bbeb;
 Categories=Office;Viewer;
 
-NoDisplay=true
+#NoDisplay=true
 OnlyShowIn=Unity;
 

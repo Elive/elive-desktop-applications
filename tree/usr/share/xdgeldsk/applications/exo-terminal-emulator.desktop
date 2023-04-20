@@ -7,7 +7,7 @@ StartupNotify=false
 Terminal=false
 Categories=Utility;X-XFCE;X-Xfce-Toplevel;
 # NOTE: these dont works in efl 1.13, so let's use NoDisplay
-OnlyShowIn=XFCE;
+#OnlyShowIn=XFCE;
 NotShowIn=X-Enlightenment;
 Name=Terminal Emulator
 Name[zh]=终端仿真器

@@ -89,5 +89,5 @@ Comment[tr]=Komut satırını kullanın
 Comment[uk]=Використовуйте командний рядок
 Comment[vi]=Sử dụng dòng lệnh
 
-NoDisplay=true
+#NoDisplay=true
 OnlyShowIn=Unity;

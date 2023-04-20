@@ -207,6 +207,6 @@ X-GNOME-Bugzilla-Component=general
 X-GNOME-Bugzilla-OtherBinaries=gnome-thumbnail-font
 X-GNOME-Bugzilla-Version=@VERSION@
 
-NoDisplay=true
+#NoDisplay=true
 OnlyShowIn=Unity;
 

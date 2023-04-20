@@ -181,6 +181,6 @@ X-Ubuntu-Gettext-Domain=gdebi
 StartupNotify=true
 
 NoDisplay=true
-OnlyShowIn=Unity;
+#OnlyShowIn=Unity;
 
 Keywords=package;apt;dpkg;install

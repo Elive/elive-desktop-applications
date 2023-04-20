@@ -7,6 +7,7 @@ Categories=Other;
 #StartupNotify=true
 # NOTE: this is a generic .desktop for the applications we don't want to appear in the menus and ALSO in the launchers, at all
 
-NoDisplay=true
+# XXX : if the NoDisplay = true, it won't show in any place, if you want to show on ulauncher, do not enable the NoDisplay and only leave OnlyShowIn=Unity; enabled
+#NoDisplay=true
 OnlyShowIn=Unity;
 
