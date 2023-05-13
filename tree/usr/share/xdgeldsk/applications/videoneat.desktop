@@ -48,4 +48,4 @@ Categories=Education;WebApp
 StartupNotify=true
 #NoDisplay=false
 Icon=video
-Exec=web-launcher --app=http://www.videoneat.com
+Exec=web-launcher --app=https://www.videoneat.com

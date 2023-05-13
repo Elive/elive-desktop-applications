@@ -89,4 +89,4 @@ Categories=Elive;Development;WebApp
 StartupNotify=true
 #NoDisplay=false
 Icon=gwget
-Exec=web-launcher http://www.elivecd.org/collaborate/
+Exec=web-launcher https://www.elivecd.org/collaborate/

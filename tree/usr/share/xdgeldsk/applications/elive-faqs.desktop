@@ -89,4 +89,4 @@ Categories=Elive;Help;WebApp
 StartupNotify=true
 #NoDisplay=false
 Icon=help-browser
-Exec=web-launcher http://www.elivecd.org/faqs/
+Exec=web-launcher https://www.elivecd.org/faqs/

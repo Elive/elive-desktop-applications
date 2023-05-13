@@ -89,4 +89,4 @@ Categories=Elive;WebApp
 StartupNotify=true
 #NoDisplay=false
 Icon=text-x-news
-Exec=web-launcher http://www.elivecd.org/newsletters
+Exec=web-launcher https://www.elivecd.org/newsletters

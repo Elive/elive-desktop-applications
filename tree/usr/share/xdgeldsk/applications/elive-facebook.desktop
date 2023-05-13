@@ -92,4 +92,4 @@ NoDisplay=true
 OnlyShowIn=Unity;
 
 Icon=facebook
-Exec=web-launcher http://facebook.com/elive
+Exec=web-launcher https://facebook.com/elive

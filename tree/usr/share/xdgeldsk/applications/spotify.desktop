@@ -48,4 +48,4 @@ Categories=AudioVideo;Audio;Music;WebApp
 StartupNotify=true
 #NoDisplay=false
 Icon=spotify
-Exec=web-launcher --app=http://play.spotify.com
+Exec=web-launcher --app=https://play.spotify.com

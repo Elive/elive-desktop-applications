@@ -88,4 +88,4 @@ Categories=Elive;WebApp
 StartupNotify=true
 #NoDisplay=false
 Icon=znes
-Exec=web-launcher "http://www.elivecd.org/donate/?id=donate-elive-os-emenus"
+Exec=web-launcher "https://www.elivecd.org/donate/?id=donate-elive-os-emenus"

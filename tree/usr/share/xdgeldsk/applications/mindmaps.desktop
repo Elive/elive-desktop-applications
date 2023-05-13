@@ -48,4 +48,4 @@ Categories=Utilities;FlowChart;Organizer;WebApp
 StartupNotify=true
 #NoDisplay=false
 Icon=dia
-Exec=web-launcher --app=http://my-mind.github.io
+Exec=web-launcher --app=https://my-mind.github.io

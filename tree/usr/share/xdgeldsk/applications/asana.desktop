@@ -51,4 +51,4 @@ StartupNotify=true
 #OnlyShowIn=Unity;
 
 Icon=task-due
-Exec=web-launcher --app=http://app.asana.com
+Exec=web-launcher --app=https://app.asana.com

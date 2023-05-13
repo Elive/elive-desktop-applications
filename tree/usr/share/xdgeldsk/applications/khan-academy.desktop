@@ -8,4 +8,4 @@ Categories=Education;WebApp
 StartupNotify=true
 #NoDisplay=false
 Icon=kedit
-Exec=web-launcher --app=http://www.khanacademy.org
+Exec=web-launcher --app=https://www.khanacademy.org

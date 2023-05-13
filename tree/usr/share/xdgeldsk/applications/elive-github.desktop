@@ -89,4 +89,4 @@ Categories=Elive;Development;WebApp
 StartupNotify=true
 #NoDisplay=false
 Icon=text-xml
-Exec=web-launcher http://github.com/Elive
+Exec=web-launcher https://github.com/Elive
