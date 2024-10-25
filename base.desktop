@@ -1,13 +1,12 @@
 [Desktop Entry]
 Type=Application
 Encoding=UTF-8
-Name=CHANGEME
-GenericName=CHANGEME
-Comment=
+Name=Bluetooth Manager
+GenericName=Bluetooth Device Manager
+Comment=Manage Bluetooth devices and connections
 Icon=bluetooth
 TryExec=noexecme
 Exec=noexecme
 Terminal=false
 Categories=Video
 
-NoDisplay=true
