@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Volume Control
 Name[zh]=音量控制
-Name[eo]=Voluma Kontrolo
+Name[eo]=Volumregilo
 Name[no]=Volumkontroll
 Name[tl]=Pagkontrol sa Dami
 Name[af]=Volumebeheer
@@ -92,7 +92,7 @@ Name[zh_TW]=音量控制
 Comment=Change sound volume and sound events
 Comment[zh]=更改音量和声音事件
 Comment[az]=Səs səviyyəsini və səs hadisələrini dəyişdirin
-Comment[eo]=Ŝanĝi sonvolumon kaj sonajn eventojn
+Comment[eo]=Ŝanĝi laŭtecon kaj sonajn eventojn
 Comment[hr]=Promijenite glasnoću zvuka i zvučne događaje
 Comment[ms]=Tukar kelantangan suara dan peristiwa bunyi
 Comment[no]=Endre lydvolum og lydhendelser
@@ -156,7 +156,7 @@ Comment[ug]=ئاۋاز مىقدارى ۋە ئاۋاز ھادىسىسى ئۆزگ�
 Comment[uk]=Зміна гучності звуку та прив'язка звуків до подій
 Comment[zh_CN]=更改音量以及将声音与事件关联
 Comment[zh_HK]=改變音效的音量和音效事件
-Comment[zh_TW]=改變音效的音量和音效事件
+Comment[zh_TW]=變更音量及聲音事件
 Exec=gnome-volume-control-pre
 Icon=multimedia-volume-control
 StartupNotify=true
