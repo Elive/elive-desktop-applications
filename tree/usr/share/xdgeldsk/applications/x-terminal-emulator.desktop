@@ -46,6 +46,7 @@ Comment[pt]=Emulador de terminal
 Comment[ru]=Эмулятор терминала
 Comment[ko]=터미널 에뮬레이터
 Keywords=shell;prompt;command;commandline;
+Keywords[ko]=셸;프롬프트;명령;명령줄;터미널;
 Exec=x-terminal-emulator
 Icon=terminology
 Categories=System;TerminalEmulator;
