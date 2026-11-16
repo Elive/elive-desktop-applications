@@ -34,7 +34,7 @@
 [Desktop Entry]
 Name=XTerm
 #GenericName=Terminal
-Comment=standard terminal emulator for the X window system
+Comment=Standard terminal emulator for the X Window System
 Exec=xterm
 Terminal=false
 Type=Application

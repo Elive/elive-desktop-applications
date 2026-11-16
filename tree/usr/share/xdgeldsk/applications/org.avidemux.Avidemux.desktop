@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Avidemux
-GenericName=Video Converter
-Comment=Video converter and editor
+GenericName=Video Conversion and Editing Tool
+Comment=Convert and edit video files easily
 Exec=avidemux3_qt5 %U
 Icon=org.avidemux.Avidemux
 Terminal=false

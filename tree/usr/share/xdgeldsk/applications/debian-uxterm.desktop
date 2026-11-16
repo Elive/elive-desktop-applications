@@ -34,14 +34,14 @@
 [Desktop Entry]
 Name=UXTerm
 #GenericName=Terminal
-Comment=xterm wrapper for Unicode environments
+Comment=Terminal emulator for Unicode environments (xterm wrapper)
 Exec=uxterm
 Terminal=false
 Type=Application
 #Encoding=UTF-8
 Icon=mini.xterm
 Categories=System;TerminalEmulator;
-Keywords=shell;prompt;command;commandline;cmd;
+Keywords=shell;prompt;command;command-line;terminal;
 
 NoDisplay=true
 OnlyShowIn=Unity;

@@ -1,8 +1,8 @@
 [Desktop Entry]
 Version=1.5
 Name=Ulauncher
-Comment=Application launcher for Linux
-GenericName=Launcher
+Comment=Quick application launcher for Linux
+GenericName=Application Launcher
 Categories=GNOME;GTK;Utility;
 TryExec=ulauncher
 Exec=ulauncher

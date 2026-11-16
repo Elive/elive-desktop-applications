@@ -1,10 +1,10 @@
 [Desktop Entry]
 Type=Application
 Name=Elementary Perf
-Name[it]=Prestazioni di Elementary
+Name[it]=Test delle prestazioni di Elementary
 Comment=Elementary Performance Test Application
-Comment[fr]=Test de performance pour Elementary
-Comment[it]=Test delle prestazioni per Elementary
+Comment[fr]=Application de test de performance pour Elementary
+Comment[it]=Applicazione di test delle prestazioni per Elementary
 Icon=elementary
 TryExec=elementary_perf
 Exec=elementary_perf

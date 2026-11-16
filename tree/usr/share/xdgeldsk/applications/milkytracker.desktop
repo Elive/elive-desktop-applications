@@ -2,7 +2,7 @@
 Version=1.0
 Name=MilkyTracker
 Comment=Fasttracker 2 Clone
-Comment[fr]=Clone de Fasttracker 2
+Comment[fr]=Clone de tracker musical de type Fasttracker 2
 Terminal=false
 TryExec=milkytracker
 Exec=milkytracker %f

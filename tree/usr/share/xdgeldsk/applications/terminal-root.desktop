@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Root Terminal
-Name[zh]=根终端
+Name[zh]=Root 终端
 Name[vi]=Thiết bị đầu cuối gốc
 Name[ar]=طرفيّة الجذر
 Name[ca]=Terminal root
@@ -33,7 +33,7 @@ Comment[gl]=Abre un terminal como usuario root, usando gksu para preguntar polo 
 Comment[hu]=Megnyit egy rendszergazda terminált, a gksu-t használva a jelszó bekérésére
 Comment[it]=Apre un terminale come root, usando gksu per la richiesta della password
 Comment[ja]=パスワードを尋ねるのに gksu を使い、root ユーザとして端末を開く
-Comment[ko]=루트 사용자로 터미널을 열고, GKSU로 열쇠글을 물어봅니다
+Comment[ko]=루트 사용자로 터미널을 열고, gksu를 사용하여 비밀번호를 물어봅니다
 Comment[lt]=Atveria terminalą 'root' naudotojo teisėmis, naudojant gksu slaptažodžiui įvesti
 Comment[nl]=Start een terminal als de root-gebruiker waarbij gksu gebruikt wordt om het wachtwoord te vragen.
 Comment[pl]=Uruchamia terminal użytkownika root, używając gksu do wczytania hasła
